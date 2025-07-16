@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mémo des Dérivées</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mémo des Dérivées</h1>
+    <nav>
+      <a href="#formules">Formules</a>
+      <a href="#exercices">QCM</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="formules">
+      <h2>Formules de base</h2>
+      <ul>
+        <li>\( (u+v)' = u'+v' \)</li>
+        <li>\( (uv)' = u'v + uv' \)</li>
+        <li>\( (u/v)' = (u'v - uv') / v^2 \)</li>
+        <li>\( (u^n)' = nu^{n-1}u' \)</li>
+        <li>\( (\ln u)' = u'/u \)</li>
+        <li>\( (e^u)' = u'e^u \)</li>
+        <li>\( (\sin u)' = u'\cos u \)</li>
+        <li>\( (\cos u)' = -u'\sin u \)</li>
+      </ul>
+    </section>
+
+    <section id="exercices">
+      <h2>QCM - Exercices</h2>
+      <div id="qcm-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - Mémo Dérivées</p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
