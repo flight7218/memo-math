@@ -1,5 +1,3 @@
-// app.js
-
 const questions = [
   {
     question: "Quelle est la dérivée de f(x) = x² ?",
